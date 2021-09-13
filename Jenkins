@@ -1,0 +1,26 @@
+pipeline {
+  agent any
+  tools {nodejs "nodejs"}  
+  stages {
+  
+    stage('Build') {
+      steps {
+        dir("backend") {
+            sh 'npm install'
+        }  
+      }
+    }
+    
+    stage('Run') {
+      steps {
+        dir("backend") {
+            sh "pm2 stop all"
+            sh "export BUILD_ID=$BUILD_ID"
+            sh 'JENKINS_NODE_COOKIE=dontKillMe npm run start'
+            sh "pm2 list"
+        }  
+      }
+    }
+
+  }
+}
