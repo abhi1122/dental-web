@@ -1,0 +1,43 @@
+{
+    "websiteName": "Shree Ekdantam Dental Clinic",
+    "doctorName": "Dr Lalit Sharma",
+    "designation": "BDS (Dental Surgeon)",
+    "address": "Shree Ekdantam dental clinic, Patidar dharmshala NH 12 opposite BSNL office Jhalawar 326001",
+    "email": "drlalitsharma06@gmail.com",
+    "phone1": "+91-9461885030",
+    "phone2": "+91-811441772",
+    "services": [
+        "Advanced X-Ray Machine",
+        "Cosmetic Dentistry & Smile Make over",
+        "All type of Filling (Cement, Composite, Silver)",
+        "Root Canal Treatment with Advance Techniques",
+        "Painless Extractions",
+        "Latest Technique For Cleaning Teeth",
+        "Advance Treatment for Gums & Related Problems",
+        "Treatment for Bad Breath",
+        "Pedodontics Treatment",
+        "Malaligned Teeth correction with Braces",
+        "Implants",
+        "All Types of Denture",
+        "Bleaching",
+        "Full Mouth Rehabilitation"
+    ],
+    "mainPageText": {
+        "aboutUs": "About Us",
+        "services": "TREATMENT FACILITIES AVAILABLE AT OUR CLINIC"
+    },
+    "sidler": [{
+            "url": "",
+            "text": ""
+        },
+        {
+            "url": "",
+            "text": ""
+        },
+        {
+            "url": "",
+            "text": ""
+        }
+    ],
+    "time": "Mon - Sun : 10:00am To 5:00pm"
+}
