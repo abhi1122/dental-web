@@ -40,4 +40,13 @@ router.get('/contact-us', function (req, res, next) {
     });
 });
 
+router.get('/editor', function (req, res, next) {
+    res.render('editor', {
+        ...changeLang(req),
+        data: {
+            ...changeLang(req)
+        }
+    });
+});
+
 module.exports = router;

@@ -7,54 +7,16 @@
 
 <section class="about py-5">
 	<div class="container py-md-3">
-		<h2 class="heading text-center mb-sm-5 mb-4">About Us </h2>
+		<h2 class="heading text-center mb-sm-5 mb-4"><%= mainPageText['aboutUs'] %></h2>
 		<div class="row">
 			<div class="col-lg-8">
-				<h4 class="about-left">Dr Lalit Sharma, BDS (Dental Surgeon)</h4>
-				<p class="mt-sm-4 mt-3">Suspendisse id felis sed felis tincidunt finibus. Nulla sed justo tellus.
-					Donec ut felis ante. Quisque ac sapien
-					quis orci pulvinar finibus quis eu urna. onec consequat sapien ut leo cursus rhoncus. Nullam dui
-					mi, vulputate ac metus semper Nullam
-					dui mi. Vestibulum ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-					Curabitur quis.</p>
-				<!-- <div class="row mt-4">
-					<div class="col-md-3 col-6">
-						<div class="about-box">
-							<span class="icon">
-								<span class="fa fa-birthday-cake"></span>
-							</span>
-							<h4>Root Canals</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-6">
-						<div class="about-box">
-							<span class="icon">
-								<span class="fa fa-rocket"></span>
-							</span>
-							<h4>Teeth Whitening</h4>
-						</div>
-					</div>
-					
-					<div class="col-md-3 col-6 mt-md-0 mt-4">
-						<div class="about-box">
-							<span class="icon">
-								<span class="fa fa-stethoscope"></span>
-							</span>
-							<h4>Check-ups</h4>
-						</div>
-					</div>
-					<div class="col-md-3 col-6 mt-md-0 mt-4">
-						<div class="about-box">
-							<span class="icon">
-								<span class="fa fa-coffee"></span>
-							</span>
-							<h4>Dental Exams</h4>
-						</div>
-					</div>
-				</div> -->
+				<h4 class="about-left"><%= doctorName %> <%= designation %></h4>
+				<p class="mt-sm-4 mt-3">
+					<%= mainPageText['aboutUsText'] %>
+				</p>
 			</div>
 			<div class="col-lg-4 col-md-8 dental">
-				<img src="images/doctor.jpeg" class="img-fluid" alt="" />
+				<img src="<%= doctorImage %>" class="img-fluid" alt="" />
 			</div>
 		</div>
 	</div>

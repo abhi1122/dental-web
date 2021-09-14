@@ -1,6 +1,8 @@
 {
+    "logo": "https://res.cloudinary.com/dp536vvok/image/upload/v1631356657/shreeekdantamdentalclinic/logo_k254an.png",
     "websiteName": "Shree Ekdantam Dental Clinic",
     "doctorName": "Dr Lalit Sharma",
+    "doctorImage": "https://res.cloudinary.com/dp536vvok/image/upload/v1631356658/shreeekdantamdentalclinic/doctor_vtisxx.jpg",
     "designation": "BDS (Dental Surgeon)",
     "address": "Shree Ekdantam dental clinic, Patidar dharmshala NH 12 opposite BSNL office Jhalawar 326001",
     "email": "drlalitsharma06@gmail.com",
@@ -24,7 +26,8 @@
     ],
     "mainPageText": {
         "aboutUs": "About Us",
-        "services": "TREATMENT FACILITIES AVAILABLE AT OUR CLINIC"
+        "services": "TREATMENT FACILITIES AVAILABLE AT OUR CLINIC",
+        "aboutUsText": "I am Lalit sharma i have 5 ysr"
     },
     "sidler": [{
             "url": "",
@@ -39,5 +42,89 @@
             "text": ""
         }
     ],
-    "time": "Mon - Sun : 10:00am To 5:00pm"
+    "time": "Mon - Sun : 10:00am To 5:00pm",
+    "gallery": [{
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_300/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg",
+            "text": ""
+        },
+        {
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_300/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
+            "text": ""
+        },
+        {
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_300/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
+            "text": ""
+        }
+    ],
+    "banner": [{
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg",
+            "text": ""
+        },
+        {
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
+            "text": ""
+        },
+        {
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
+            "text": ""
+        }
+    ],
+    "bookNow": "Book Now",
+    "callUs": "Call Us",
+    "parctoUrl": "",
+    "menu": [{
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "About Us",
+            "url": "/about-us"
+        },
+        {
+            "text": "Services",
+            "url": "/treatment-facilities"
+        },
+        {
+            "text": "Gallery",
+            "url": "/gallery"
+        },
+        {
+            "text": "Contact Us",
+            "url": "/contact-us"
+        }
+    ],
+    "tagLine": "make your dream smile a reality",
+    "follow": [{
+            "url": "/",
+            "class": "fa mx-2 fa-facebook"
+        },
+        {
+            "url": "/",
+            "class": "fa mx-2 fa-twitter"
+        },
+        {
+            "url": "/",
+            "class": "fa mx-2 fa-dribbble"
+        },
+        {
+            "url": "/",
+            "class": "fa mx-2 fa-pinterest"
+        },
+        {
+            "url": "/",
+            "class": "fa mx-2 fa-google-plus"
+        }
+    ],
+    "allRights": "All Rights Reserved",
+    "followUsText": "Follow Us",
+    "addressText": "Address",
+    "quickLinks": "Quick Links",
+    "bookAnAppointment": "Book an Appointment",
+    "orBook": "or Book Your Online Appointment Today",
+    "seoContent": "Shree Ekdantam Dental Clinic, Dr Lalit Sharma, Dental Clinic Jhalawar",
+    "galleryText": "Gallery",
+    "contactUsText": "Contact Us"
 }

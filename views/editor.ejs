@@ -1,0 +1,8 @@
+<div style="margin: 100px;">
+    <% 
+    Object.keys(data).forEach(function(prop) {
+    %>
+    <h5><%- prop %></h5>
+    <p><input type="text" value="<%- data[prop] %>" style="width:1000px" /></p>
+    <% }); %>
+</div>
