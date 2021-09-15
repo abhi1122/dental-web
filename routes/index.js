@@ -52,7 +52,7 @@ router.get('/editor', function (req, res, next) {
 });
 
 router.get('*', function (req, res) {
-    res.render('index', {
+    res.status(404).render('404', {
         ...changeLang(req)
     });
 });
