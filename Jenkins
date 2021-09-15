@@ -5,20 +5,18 @@ pipeline {
   
     stage('Build') {
       steps {
-        dir("backend") {
             sh 'npm install'
-        }  
+            sh 'npm install pm2 -g'
       }
     }
     
     stage('Run') {
       steps {
-        dir("backend") {
+            sh 'pm2 kill'
             sh "export BUILD_ID=$BUILD_ID"
-            sh 'JENKINS_NODE_COOKIE=dontKillMe npm start'
-        }  
+            sh 'JENKINS_NODE_COOKIE=dontKillMe npm run start'
+            sh "pm2 list"
       }
-    }
-
   }
+}
 }
