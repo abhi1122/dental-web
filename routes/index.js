@@ -51,4 +51,10 @@ router.get('/editor', function (req, res, next) {
     });
 });
 
+app.get('*', function (req, res) {
+    res.render('index', {
+        ...changeLang(req)
+    });
+});
+
 module.exports = router;
