@@ -9,10 +9,12 @@
 	<div class="container pt-lg-5">
 		<h2 class="heading text-center mb-sm-5 mb-4"><%= contactUsText %> </h2>
 		<div class="row agileinfo_mail_grids">
-			<div class="col-lg-8 agileinfo_mail_grid_right">
-				<div id="map"></div>
+			<div class="col-lg-7 agileinfo_mail_grid_right">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.034809578162!2d76.16053131552052!3d24.58799486217777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM1JzE2LjgiTiA3NsKwMDknNDUuOCJF!5e0!3m2!1sen!2sin!4v1631679832930!5m2!1sen!2sin"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
-			<div class="col-lg-4 col-md-6 mt-lg-0 mt-4 contact-info">
+			<div class="col-lg-5 col-md-6 mt-lg-0 mt-4 contact-info">
 				<h4 class="mb-4"><%= addressText %></h4>
 				<p><span class="fa mr-2 fa-map-marker"></span><%= address %></p>
 				<p class="phone py-2"><span class="fa mr-2 fa-phone"></span>Phone : <%= phone1 %> <%= phone2 %> </p>

@@ -77,23 +77,28 @@
     "parctoUrl": "",
     "menu": [{
             "text": "Home",
-            "url": "/"
+            "url": "/",
+            "title": "Shree Ekdantam Dental Clinic Jhalawar : Home"
         },
         {
             "text": "About Us",
-            "url": "/about-us"
+            "url": "/about-us",
+            "title": "Shree Ekdantam Dental Clinic Jhalawar : About Us"
         },
         {
             "text": "Services",
-            "url": "/treatment-facilities"
+            "url": "/treatment-facilities",
+            "title": "Shree Ekdantam Dental Clinic Jhalawar : Services"
         },
         {
             "text": "Gallery",
-            "url": "/gallery"
+            "url": "/gallery",
+            "title": "Shree Ekdantam Dental Clinic Jhalawar : Gallery"
         },
         {
             "text": "Contact Us",
-            "url": "/contact-us"
+            "url": "/contact-us",
+            "title": "Shree Ekdantam Dental Clinic Jhalawar : Contact Us"
         }
     ],
     "tagLine": "make your dream smile a reality",
@@ -126,5 +131,7 @@
     "orBook": "or Book Your Online Appointment Today",
     "seoContent": "Shree Ekdantam Dental Clinic, Dr Lalit Sharma, Dental Clinic Jhalawar",
     "galleryText": "Gallery",
-    "contactUsText": "Contact Us"
+    "contactUsText": "Contact Us",
+    "title": "",
+    "description": "Shree Ekdantam Dental Clinic Jhalawar doctor Lalit Sharma"
 }
