@@ -5,8 +5,8 @@ var router = express.Router();
 
 function changeLang(req) {
     const data = require('../lang/eng.json');
-    console.log(req.originalUrl, '......req.originalUrl');
     data['title'] = data.menu.find((obj) => obj.url === req.originalUrl)['title'];
+    data.pageUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
     return data;
 }
 
