@@ -444,6 +444,9 @@ header {
   width: 100%;
   background: #00bcd5;
 }
+#banner-height{
+  height: 550px;
+}
 
 .logoStyle{
   width :50px;
@@ -585,6 +588,7 @@ li>a:only-child:after {
 --------------------------------------------- */
 
 @media all and (max-width: 991px) {
+  
   nav {
     float: none;
   }
@@ -603,6 +607,8 @@ li>a:only-child:after {
 
   .login-icon {
     display: inline-block;
+    float: right;
+    margin-right: 10px;
   }
 
   nav {
@@ -2143,6 +2149,10 @@ h5.mt-0 {
     letter-spacing: 0.3px;
   }
 
+  
+#banner-height{
+  height: 400px;
+}
   .blog_info {
     min-height: 275px;
     padding: 1em 2em;
@@ -2274,6 +2284,7 @@ h5.mt-0 {
   .widget_social li a .count {
     padding-left: 0px;
   }
+  
 }
 
 @media screen and (max-width: 480px) {}
@@ -2612,6 +2623,10 @@ a.move-top span {
 #logo a {
   font-size: 22px;
 }
+
+#banner-height{
+  height: 400px;
+}
 }
 @media (max-width: 800px) {
   
@@ -2627,7 +2642,7 @@ a.move-top span {
   }
 
   #logo a {
-    font-size: 22px;
+    font-size: 21px;
   }
   .login-icon a, .login-icon a:hover {
     padding: 0.4em 1em;
@@ -2714,7 +2729,10 @@ a.move-top span {
   .login-icon a,
   .login-icon a:hover {
     padding: 0.5em 1.2em;
-    font-size: 0.9em;
+    font-size: 12px;
+  }
+  .toggle {
+    font-size: 13px;
   }
 
   p {
@@ -2847,10 +2865,14 @@ a.move-top span {
     font-size: 20px;
   }
 
+ 
   #logo a {
-    font-size: 0.65em;
+    font-size: 16px;
+    }
+    .logoStyle {
+      width: 40px;
+      height: 35px;
   }
-
   h3.heading,
   h2.heading {
     font-size: 40px;
@@ -2949,6 +2971,28 @@ a.move-top span {
   
 .offer-grids h4 {
   text-align: center;
+}
+
+#logo a {
+  letter-spacing: 0;
+  font-size: 15px;
+  
+}
+
+.logoStyle {
+  width :30px;
+  height:30px;
+}
+
+
+.login-icon a, .login-icon a:hover {
+  padding: 5px 5px;
+  font-size: 12px;
+  border-radius: 0px;
+}
+.toggle {
+padding: 6px 12px;
+font-size: 12px;
 }
 }
 
@@ -3057,6 +3101,28 @@ a.move-top span {
   .offer-grids h4 {
     text-align: center;
   }
+  
+  #logo a {
+    letter-spacing: 0;
+    font-size: 15px;
+    
+  }
+
+  .logoStyle {
+    width :30px;
+    height:30px;
+  }
+
+  
+  .login-icon a, .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.toggle {
+  padding: 6px 12px;
+  font-size: 12px;
+}
 }
 
 @media (max-width: 384px) {
@@ -3130,12 +3196,12 @@ a.move-top span {
 
   #logo a {
     letter-spacing: 0;
-    font-size: 15px;
+    font-size: 14px;
     
   }
 
   .logoStyle {
-    width :28px;
+    width :30px;
     height:30px;
   }
 
@@ -3162,6 +3228,30 @@ a.move-top span {
 }
 
 @media (max-width: 375px) {
+  #logo a {
+    letter-spacing: 0;
+    font-size: 12px;
+    
+  }
+  .login-icon a, .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.toggle {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+#banner-height{
+  height:250px;
+}
+.about .row { 
+  text-align:center;
+}
+
+.offer-grids h4 {
+  text-align: center;
+}
   .contact-info p {
     font-size: 14px;
   }
