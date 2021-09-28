@@ -444,7 +444,14 @@ header {
   width: 100%;
   background: #00bcd5;
 }
+#banner-height{
+  height: 550px;
+}
 
+.logoStyle{
+  width :50px;
+  height:50px;
+}
 .toggle,
 [id^="drop"] {
   display: none;
@@ -581,6 +588,7 @@ li>a:only-child:after {
 --------------------------------------------- */
 
 @media all and (max-width: 991px) {
+  
   nav {
     float: none;
   }
@@ -599,6 +607,8 @@ li>a:only-child:after {
 
   .login-icon {
     display: inline-block;
+    float: right;
+    margin-right: 10px;
   }
 
   nav {
@@ -2139,6 +2149,10 @@ h5.mt-0 {
     letter-spacing: 0.3px;
   }
 
+  
+#banner-height{
+  height: 400px;
+}
   .blog_info {
     min-height: 275px;
     padding: 1em 2em;
@@ -2270,6 +2284,7 @@ h5.mt-0 {
   .widget_social li a .count {
     padding-left: 0px;
   }
+  
 }
 
 @media screen and (max-width: 480px) {}
@@ -2526,6 +2541,11 @@ a.move-top span {
 }
 
 @media (max-width: 991px) {
+  
+
+.about .row { 
+  text-align:center;
+}
   .navbar-toggler {
     background-color: #00bcd5;
     border: 1px solid transparent;
@@ -2599,8 +2619,20 @@ a.move-top span {
     padding: 0 0em;
   }
 }
+@media (max-width: 1180px) {
+#logo a {
+  font-size: 22px;
+}
 
+#banner-height{
+  height: 400px;
+}
+}
 @media (max-width: 800px) {
+  
+.about .row { 
+  text-align:center;
+}
   .about-grids h4 span {
     font-size: 18px;
   }
@@ -2610,9 +2642,12 @@ a.move-top span {
   }
 
   #logo a {
-    font-size: 0.7em;
+    font-size: 21px;
   }
-
+  .login-icon a, .login-icon a:hover {
+    padding: 0.4em 1em;
+    border-radius: 0px;
+  }
   .banner-text-agile {
     padding: 15vw 0vw 4vw;
   }
@@ -2640,6 +2675,13 @@ a.move-top span {
 }
 
 @media (max-width: 736px) {
+  
+#banner-height{
+  height:350px;
+}
+.about .row { 
+  text-align:center;
+}
   h3.b-w3ltxt {
     line-height: 55px;
     font-size: 2.8em;
@@ -2687,7 +2729,10 @@ a.move-top span {
   .login-icon a,
   .login-icon a:hover {
     padding: 0.5em 1.2em;
-    font-size: 0.9em;
+    font-size: 12px;
+  }
+  .toggle {
+    font-size: 13px;
   }
 
   p {
@@ -2744,9 +2789,26 @@ a.move-top span {
   h4.about-left {
     font-size: 26px;
   }
+  
+#banner-height{
+  height:250px;
+}
+.about .row { 
+  text-align:center;
+}
 }
 
 @media (max-width: 568px) {
+  
+.offer-grids h4 {
+  text-align: center;
+}
+#banner-height{
+  height:250px;
+}
+.about .row { 
+  text-align:center;
+}
   h3.b-w3ltxt {
     font-size: 2.3em;
   }
@@ -2803,10 +2865,14 @@ a.move-top span {
     font-size: 20px;
   }
 
+ 
   #logo a {
-    font-size: 0.65em;
+    font-size: 16px;
+    }
+    .logoStyle {
+      width: 40px;
+      height: 35px;
   }
-
   h3.heading,
   h2.heading {
     font-size: 40px;
@@ -2902,9 +2968,39 @@ a.move-top span {
     margin: 5em 1em;
     padding: 3em 1em;
   }
+  
+.offer-grids h4 {
+  text-align: center;
+}
+
+#logo a {
+  letter-spacing: 0;
+  font-size: 15px;
+  
+}
+
+.logoStyle {
+  width :30px;
+  height:30px;
+}
+
+
+.login-icon a, .login-icon a:hover {
+  padding: 5px 5px;
+  font-size: 12px;
+  border-radius: 0px;
+}
+.toggle {
+padding: 6px 12px;
+font-size: 12px;
+}
 }
 
 @media (max-width: 415px) {
+  
+#banner-height{
+  height:250px;
+}
   .blog-grids h4 {
     font-size: 20px;
   }
@@ -3002,6 +3098,31 @@ a.move-top span {
     width: 45%;
     padding: 0 0em;
   }
+  .offer-grids h4 {
+    text-align: center;
+  }
+  
+  #logo a {
+    letter-spacing: 0;
+    font-size: 15px;
+    
+  }
+
+  .logoStyle {
+    width :30px;
+    height:30px;
+  }
+
+  
+  .login-icon a, .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.toggle {
+  padding: 6px 12px;
+  font-size: 12px;
+}
 }
 
 @media (max-width: 384px) {
@@ -3075,10 +3196,62 @@ a.move-top span {
 
   #logo a {
     letter-spacing: 0;
+    font-size: 14px;
+    
   }
+
+  .logoStyle {
+    width :30px;
+    height:30px;
+  }
+
+  
+  .login-icon a, .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.toggle {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+#banner-height{
+  height:250px;
+}
+.about .row { 
+  text-align:center;
+}
+
+.offer-grids h4 {
+  text-align: center;
+}
 }
 
 @media (max-width: 375px) {
+  #logo a {
+    letter-spacing: 0;
+    font-size: 12px;
+    
+  }
+  .login-icon a, .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.toggle {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+#banner-height{
+  height:250px;
+}
+.about .row { 
+  text-align:center;
+}
+
+.offer-grids h4 {
+  text-align: center;
+}
   .contact-info p {
     font-size: 14px;
   }
