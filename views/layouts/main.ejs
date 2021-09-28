@@ -35,7 +35,7 @@
         rel="stylesheet">
     <!-- //google fonts -->
 
-    <link href="css/light-carousel.css" rel="stylesheet">
+    <!-- <link href="css/light-carousel.css" rel="stylesheet"> -->
 
 </head>
 
@@ -49,9 +49,53 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
 </script>
-<script src="js/jquery.light-carousel.js"></script>
+<!-- <script src="js/jquery.light-carousel.js"></script>
 <script>
     $('.sample1').lightCarousel();
+</script> -->
+
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/dist/css/accordion-slider.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/silder_new.css" media="screen" />
+
+<script type="text/javascript" src="/dist/js/jquery.accordionSlider.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        // instantiate the accordion
+        $('#example1').accordionSlider({
+            width: 960,
+            height: 400,
+            responsiveMode: 'auto',
+            visiblePanels: 3,
+            closePanelsOnMouseOut: false,
+            autoplay: true
+        });
+
+        // change the responsive mode
+        $('.controls a').click(function (event) {
+            event.preventDefault();
+
+            if ($(this).hasClass('auto')) {
+                // change the responsive mode to 'auto' and remove the 'custom-responsive' class
+                $('#example1').removeClass('custom-responsive');
+                $('#example1').accordionSlider('responsiveMode', 'auto');
+
+                // change the arrows' visibility
+                $('.auto-arrow').show();
+                $('.custom-arrow').hide();
+            } else if ($(this).hasClass('custom')) {
+                // change the responsive mode to 'custom' and add the 'custom-responsive' 
+                // class in order to use it as a reference in the CSS code
+                $('#example1').addClass('custom-responsive');
+                $('#example1').accordionSlider('responsiveMode', 'custom');
+
+                // change the arrows' visibility
+                $('.custom-arrow').show();
+                $('.auto-arrow').hide();
+            }
+        });
+    });
 </script>
 
 </html>

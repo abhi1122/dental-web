@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Feature-rich Accordion Slider Example</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/accordion-slider.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" media="screen" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../dist/js/jquery.accordionSlider.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            // instantiate the accordion
+            $('#example1').accordionSlider({
+                width: 960,
+                height: 400,
+                responsiveMode: 'auto',
+                visiblePanels: 5,
+                closePanelsOnMouseOut: false,
+                autoplay: true
+            });
+
+            // change the responsive mode
+            $('.controls a').click(function (event) {
+                event.preventDefault();
+
+                if ($(this).hasClass('auto')) {
+                    // change the responsive mode to 'auto' and remove the 'custom-responsive' class
+                    $('#example1').removeClass('custom-responsive');
+                    $('#example1').accordionSlider('responsiveMode', 'auto');
+
+                    // change the arrows' visibility
+                    $('.auto-arrow').show();
+                    $('.custom-arrow').hide();
+                } else if ($(this).hasClass('custom')) {
+                    // change the responsive mode to 'custom' and add the 'custom-responsive' 
+                    // class in order to use it as a reference in the CSS code
+                    $('#example1').addClass('custom-responsive');
+                    $('#example1').accordionSlider('responsiveMode', 'custom');
+
+                    // change the arrows' visibility
+                    $('.custom-arrow').show();
+                    $('.auto-arrow').hide();
+                }
+            });
+        });
+    </script>
+    <style>
+        body {
+            background: #fafafa;
+        }
+
+        .lead {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .container {
+            margin: 150px auto 50px auto;
+            max-width: 960px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Accordion Slider -->
+
+    <div id="example1" class="accordion-slider">
+        <div class="as-panels">
+
+            <!-- Panel 1 -->
+            <div class="as-panel">
+                <img class="as-background" src="../dist/css/images/blank.gif"
+                    data-src="https://source.unsplash.com/700x500/?nature"
+                    data-retina="https://source.unsplash.com/700x500/?nature" />
+                <p class="as-layer as-opened as-black as-padding" data-position="bottomLeft" data-show-transition="up"
+                    data-hide-transition="down">
+                    sjdlkjklsdjjdksjlk
+                </p>
+            </div>
+
+            <div class="as-panel">
+                <img class="as-background" src="../dist/css/images/blank.gif"
+                    data-src="https://source.unsplash.com/700x500/?nature"
+                    data-retina="https://source.unsplash.com/700x500/?nature" />
+                <p class="as-layer as-opened as-black as-padding" data-position="bottomLeft" data-show-transition="up"
+                    data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span
+                        class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+
+            <div class="as-panel">
+                <img class="as-background" src="../dist/css/images/blank.gif"
+                    data-src="https://source.unsplash.com/700x500/?nature"
+                    data-retina="https://source.unsplash.com/700x500/?nature" />
+                <p class="as-layer as-opened as-black as-padding" data-position="bottomLeft" data-show-transition="up"
+                    data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span
+                        class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="as-panel">
+                <img class="as-background" src="../dist/css/images/blank.gif"
+                    data-src="https://source.unsplash.com/700x500/?nature"
+                    data-retina="https://source.unsplash.com/700x500/?nature" />
+                <p class="as-layer as-opened as-black as-padding" data-position="bottomLeft" data-show-transition="up"
+                    data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span
+                        class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End of Accordion Slider -->
+
+    <div class="controls">
+        Change responsive mode:
+        <span class="auto-arrow">&rarr;</span> <a href="#" class="auto">Auto</a> or
+        <span class="custom-arrow">&rarr;</span> <a href="#" class="custom">Custom</a>
+    </div>
+</body>
+
+</html>
