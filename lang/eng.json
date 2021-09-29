@@ -69,18 +69,15 @@
             "text": "Shree Ekdantam Dental Clinic Jhalawar"
         },
         {
-            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903382/shreeekdantamdentalclinic/lalit_post_1_yvukqp.jpg",
-            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903382/shreeekdantamdentalclinic/lalit_post_1_yvukqp.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903382/shreeekdantamdentalclinic/lalit_post_1_yvukqp.jpg",
             "text": ""
         },
         {
-            "small": "https://res.cloudinary.com/dp536vvok/image/upload/v1632903377/shreeekdantamdentalclinic/IMG_20210928_224720_fj59va.jpg",
-            "big": "https://res.cloudinary.com/dp536vvok/image/upload/v1632903377/shreeekdantamdentalclinic/IMG_20210928_224720_fj59va.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/v1632903377/shreeekdantamdentalclinic/IMG_20210928_224720_fj59va.jpg",
             "text": ""
         },
         {
-            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
-            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
             "text": ""
         }
     ],
