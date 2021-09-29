@@ -27,7 +27,7 @@
     "mainPageText": {
         "aboutUs": "About Us",
         "services": "TREATMENT FACILITIES AVAILABLE AT OUR CLINIC",
-        "aboutUsText": "Dr. Lalit Sharma is highly qualified and highly experienced doctor with 13 years of vast experience. Working as a chief consultant in various dental clinics, cosmetic dentist, root canal specialist, TMJ and oral medicine specialist.He completed bds from a b shetty dental college in 2001, mds from a j shetty institute of dental science in 2012 and mds from parvlor institute of dental sciences , st. Petursburg in 2006. Some of the services provided by the doctor are: lava zicornia crowns ,implants ,implant supported dentures,dentures, wisdom tooth removal ,fillings, endodontic surgery or apicoectomy and metal and ceramic braces for adults and teens etc"
+        "aboutUsText": "Dr. Lalit Sharma is highly qualified and highly experienced doctor with 7 years of vast experience. Working as a chief consultant in various dental clinics, cosmetic dentist, root canal specialist, TMJ and oral medicine specialist.. Some of the services provided by the doctor are: lava zicornia,CAD cam crowns ,implants ,implant supported dentures,jaw fracture surgery, orthodontic treatment,wisdom tooth removal ,fillings, endodontic surgery or apicoectomy and metal and ceramic braces for adults and teens etc"
     },
     "sidler": [{
             "url": "",
@@ -49,13 +49,18 @@
             "text": ""
         },
         {
-            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_300/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
-            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903382/shreeekdantamdentalclinic/lalit_post_1_yvukqp.jpg",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903382/shreeekdantamdentalclinic/lalit_post_1_yvukqp.jpg",
             "text": ""
         },
         {
-            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_300/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
-            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/v1632903377/shreeekdantamdentalclinic/IMG_20210928_224720_fj59va.jpg",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/v1632903377/shreeekdantamdentalclinic/IMG_20210928_224720_fj59va.jpg",
+            "text": ""
+        },
+        {
+            "small": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
+            "big": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
             "text": ""
         }
     ],
@@ -66,6 +71,10 @@
         {
             "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder2_lj7ltq.png",
             "text": "Our Services"
+        },
+        {
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
+            "text": "Our Results"
         },
         {
             "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356659/shreeekdantamdentalclinic/silder3_y2tuht.png",
