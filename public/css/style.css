@@ -4,7 +4,7 @@
   margin-bottom: 0px;
 }
 
-.csslider>input {
+.csslider > input {
   display: none;
 }
 
@@ -36,19 +36,19 @@
   margin-left: -300%;
 } */
 
-.csslider>input:nth-of-type(3):checked~ul li:first-of-type {
+.csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
   margin-left: -200%;
 }
 
-.csslider>input:nth-of-type(2):checked~ul li:first-of-type {
+.csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
   margin-left: -100%;
 }
 
-.csslider>input:nth-of-type(1):checked~ul li:first-of-type {
+.csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
   margin-left: 0%;
 }
 
-.csslider>ul {
+.csslider > ul {
   position: relative;
   /* height: 760px; */
   z-index: 1;
@@ -63,7 +63,7 @@
   box-sizing: border-box;
 }
 
-.csslider>ul>li {
+.csslider > ul > li {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -83,12 +83,12 @@
   white-space: normal;
 }
 
-.csslider>ul>li.scrollable {
+.csslider > ul > li.scrollable {
   overflow-y: scroll;
 }
 
 /* navigation bullets */
-.csslider>.navigation {
+.csslider > .navigation {
   position: absolute;
   bottom: -5%;
   left: 2%;
@@ -105,7 +105,7 @@
   user-select: none;
 }
 
-.csslider>.navigation label {
+.csslider > .navigation label {
   position: relative;
   cursor: pointer;
   width: 20px;
@@ -120,12 +120,12 @@
   -ms-transition: 0.5s all;
 }
 
-.csslider>.navigation label:hover:after {
+.csslider > .navigation label:hover:after {
   opacity: 1;
 }
 
-.csslider>.navigation label:after {
-  content: '';
+.csslider > .navigation label:after {
+  content: "";
   position: absolute;
   left: 0;
   width: 20px;
@@ -142,7 +142,7 @@
 /* //navigation bullets */
 
 /* navigation arrows */
-.csslider>.arrows {
+.csslider > .arrows {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -160,13 +160,13 @@
   border: 1px solid #7e7e7e;
 }
 
-.csslider>input:nth-of-type(1):checked~.navigation label:nth-of-type(1):after,
-.csslider>input:nth-of-type(2):checked~.navigation label:nth-of-type(2):after,
-.csslider>input:nth-of-type(3):checked~.navigation label:nth-of-type(3):after {
+.csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1):after,
+.csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2):after,
+.csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3):after {
   opacity: 1;
 }
 
-.csslider>.arrows {
+.csslider > .arrows {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -177,7 +177,7 @@
   box-sizing: content-box;
 }
 
-.csslider>.arrows label {
+.csslider > .arrows label {
   display: none;
   position: absolute;
   top: -50%;
@@ -190,13 +190,13 @@
   transition: box-shadow 0.15s, margin 0.15s;
 }
 
-.csslider>.arrows label:hover {
+.csslider > .arrows label:hover {
   box-shadow: inset 3px -3px 0 2px #ff3c41;
   margin: 0 0px;
 }
 
-.csslider>.arrows label:before {
-  content: '';
+.csslider > .arrows label:before {
+  content: "";
   position: absolute;
   top: -100%;
   left: -100%;
@@ -204,10 +204,10 @@
   width: 300%;
 }
 
-.csslider.infinity>input:first-of-type:checked~.arrows label.goto-last,
-.csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(0),
-.csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(1),
-.csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(2) {
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2) {
   display: block;
   left: 5%;
   right: auto;
@@ -218,9 +218,9 @@
   transform: rotate(45deg);
 }
 
-.csslider.infinity>input:last-of-type:checked~.arrows label.goto-first,
-.csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(2),
-.csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(3) {
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3) {
   display: block;
   right: 5%;
   left: auto;
@@ -267,73 +267,71 @@
 
 /* responsive */
 @media screen and (max-width: 1280px) {
-
-  .csslider.infinity>input:last-of-type:checked~.arrows label.goto-first,
-  .csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(2),
-  .csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(3),
-  .csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(4),
-  .csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(5),
-  .csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(6),
-  .csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(7),
-  .csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(8),
-  .csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(9),
-  .csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(10),
-  .csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(11),
-  .csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(12) {
+  .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+  .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+  .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+  .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+  .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+  .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+  .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+  .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+  .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+  .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+  .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+  .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
     right: 3%;
   }
 
-  .csslider.infinity>input:first-of-type:checked~.arrows label.goto-last,
-  .csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(0),
-  .csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(1),
-  .csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(2),
-  .csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(3),
-  .csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(4),
-  .csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(5),
-  .csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(6),
-  .csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(7),
-  .csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(8),
-  .csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(9),
-  .csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(10) {
+  .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+  .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+  .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+  .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+  .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+  .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+  .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+  .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+  .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+  .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+  .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+  .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
     left: 3%;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .csslider>.navigation {
+  .csslider > .navigation {
     bottom: 7%;
   }
 }
 
 @media screen and (max-width: 800px) {
-
-  .csslider.infinity>input:last-of-type:checked~.arrows label.goto-first,
-  .csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(2),
-  .csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(3),
-  .csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(4),
-  .csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(5),
-  .csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(6),
-  .csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(7),
-  .csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(8),
-  .csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(9),
-  .csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(10),
-  .csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(11),
-  .csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(12) {
+  .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+  .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+  .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+  .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+  .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+  .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+  .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+  .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+  .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+  .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+  .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+  .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
     right: 5%;
   }
 
-  .csslider.infinity>input:first-of-type:checked~.arrows label.goto-last,
-  .csslider>input:nth-of-type(1):checked~.arrows>label:nth-of-type(0),
-  .csslider>input:nth-of-type(2):checked~.arrows>label:nth-of-type(1),
-  .csslider>input:nth-of-type(3):checked~.arrows>label:nth-of-type(2),
-  .csslider>input:nth-of-type(4):checked~.arrows>label:nth-of-type(3),
-  .csslider>input:nth-of-type(5):checked~.arrows>label:nth-of-type(4),
-  .csslider>input:nth-of-type(6):checked~.arrows>label:nth-of-type(5),
-  .csslider>input:nth-of-type(7):checked~.arrows>label:nth-of-type(6),
-  .csslider>input:nth-of-type(8):checked~.arrows>label:nth-of-type(7),
-  .csslider>input:nth-of-type(9):checked~.arrows>label:nth-of-type(8),
-  .csslider>input:nth-of-type(10):checked~.arrows>label:nth-of-type(9),
-  .csslider>input:nth-of-type(11):checked~.arrows>label:nth-of-type(10) {
+  .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+  .csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+  .csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+  .csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+  .csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+  .csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+  .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+  .csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+  .csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+  .csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+  .csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+  .csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
     left: 5%;
   }
 }
@@ -444,13 +442,13 @@ header {
   width: 100%;
   background: #00bcd5;
 }
-#banner-height{
+#banner-height {
   height: 550px;
 }
 
-.logoStyle{
-  width :50px;
-  height:50px;
+.logoStyle {
+  width: 50px;
+  height: 50px;
 }
 .toggle,
 [id^="drop"] {
@@ -550,7 +548,7 @@ nav ul ul {
 }
 
 /* Display Dropdowns on Hover */
-nav ul li:hover>ul {
+nav ul li:hover > ul {
   display: inherit;
 }
 
@@ -580,7 +578,7 @@ nav ul ul ul li {
 }
 
 /* Change ' +' in order to change the Dropdown symbol */
-li>a:only-child:after {
+li > a:only-child:after {
   content: "";
 }
 
@@ -588,7 +586,6 @@ li>a:only-child:after {
 --------------------------------------------- */
 
 @media all and (max-width: 991px) {
-  
   nav {
     float: none;
   }
@@ -622,7 +619,7 @@ li>a:only-child:after {
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle+a,
+  .toggle + a,
   .menu {
     display: none;
   }
@@ -658,7 +655,7 @@ li>a:only-child:after {
   }
 
   /* Display Dropdown when clicked on Parent Lable */
-  [id^="drop"]:checked+ul {
+  [id^="drop"]:checked + ul {
     display: block;
     background: #fff;
     padding: 15px 0;
@@ -717,8 +714,8 @@ li>a:only-child:after {
   }
 
   /* Hide menus on hover */
-  nav ul ul li:hover>ul,
-  nav ul li:hover>ul {
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
     display: none;
   }
 
@@ -742,7 +739,8 @@ li>a:only-child:after {
   }
 }
 
-.user span.fa {}
+.user span.fa {
+}
 
 .login-icon a,
 .login-icon a:hover {
@@ -1379,7 +1377,8 @@ footer,
 
 /*-- About page --*/
 .innerpage-banner {
-  background: url(https://res.cloudinary.com/dp536vvok/image/upload/v1631356281/shreeekdantamdentalclinic/WhatsApp_Image_2021-09-10_at_11.03.06_AM_acbq8r.jpg) no-repeat center;
+  background: url(https://res.cloudinary.com/dp536vvok/image/upload/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg)
+    no-repeat center;
   background-size: cover;
   min-height: 300px;
 }
@@ -1517,7 +1516,8 @@ footer,
 
 /*-- create --*/
 .create {
-  background: url(https://res.cloudinary.com/dp536vvok/image/upload/v1631356281/shreeekdantamdentalclinic/WhatsApp_Image_2021-09-10_at_11.03.06_AM_acbq8r.jpg) no-repeat center;
+  background: url(https://res.cloudinary.com/dp536vvok/image/upload/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg)
+    no-repeat center;
   background-size: cover;
 }
 
@@ -2133,15 +2133,20 @@ h5.mt-0 {
 
 /* //blog responsive code */
 
-@media screen and (max-width: 1680px) {}
+@media screen and (max-width: 1680px) {
+}
 
-@media screen and (max-width: 1600px) {}
+@media screen and (max-width: 1600px) {
+}
 
-@media screen and (max-width: 1440px) {}
+@media screen and (max-width: 1440px) {
+}
 
-@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1366px) {
+}
 
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1280px) {
+}
 
 @media screen and (max-width: 1080px) {
   .blog_info p {
@@ -2149,10 +2154,9 @@ h5.mt-0 {
     letter-spacing: 0.3px;
   }
 
-  
-#banner-height{
-  height: 400px;
-}
+  #banner-height {
+    height: 400px;
+  }
   .blog_info {
     min-height: 275px;
     padding: 1em 2em;
@@ -2284,10 +2288,10 @@ h5.mt-0 {
   .widget_social li a .count {
     padding-left: 0px;
   }
-  
 }
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+}
 
 @media screen and (max-width: 414px) {
   .comment-top input[type="submit"] {
@@ -2305,9 +2309,11 @@ h5.mt-0 {
   }
 }
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 375px) {
+}
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}
 
 /* //blog responsive code */
 
@@ -2422,7 +2428,6 @@ a.move-top span {
 /*-- responsive design --*/
 
 @media (max-width: 1280px) {
-
   .innerpage-banner,
   .inner-page-layer {
     min-height: 200px;
@@ -2541,11 +2546,9 @@ a.move-top span {
 }
 
 @media (max-width: 991px) {
-  
-
-.about .row { 
-  text-align:center;
-}
+  .about .row {
+    text-align: center;
+  }
   .navbar-toggler {
     background-color: #00bcd5;
     border: 1px solid transparent;
@@ -2607,7 +2610,7 @@ a.move-top span {
     padding: 12vw 0vw 4vw;
   }
 
-  .csslider>.navigation {
+  .csslider > .navigation {
     bottom: 10%;
     left: 2%;
     margin-bottom: 0px;
@@ -2620,19 +2623,18 @@ a.move-top span {
   }
 }
 @media (max-width: 1180px) {
-#logo a {
-  font-size: 22px;
-}
+  #logo a {
+    font-size: 22px;
+  }
 
-#banner-height{
-  height: 400px;
-}
+  #banner-height {
+    height: 400px;
+  }
 }
 @media (max-width: 800px) {
-  
-.about .row { 
-  text-align:center;
-}
+  .about .row {
+    text-align: center;
+  }
   .about-grids h4 span {
     font-size: 18px;
   }
@@ -2644,7 +2646,8 @@ a.move-top span {
   #logo a {
     font-size: 21px;
   }
-  .login-icon a, .login-icon a:hover {
+  .login-icon a,
+  .login-icon a:hover {
     padding: 0.4em 1em;
     border-radius: 0px;
   }
@@ -2656,7 +2659,7 @@ a.move-top span {
     font-size: 3em;
   }
 
-  .csslider>.navigation {
+  .csslider > .navigation {
     bottom: -3%;
   }
 
@@ -2675,13 +2678,12 @@ a.move-top span {
 }
 
 @media (max-width: 736px) {
-  
-#banner-height{
-  height:350px;
-}
-.about .row { 
-  text-align:center;
-}
+  #banner-height {
+    height: 350px;
+  }
+  .about .row {
+    text-align: center;
+  }
   h3.b-w3ltxt {
     line-height: 55px;
     font-size: 2.8em;
@@ -2789,26 +2791,25 @@ a.move-top span {
   h4.about-left {
     font-size: 26px;
   }
-  
-#banner-height{
-  height:250px;
-}
-.about .row { 
-  text-align:center;
-}
+
+  #banner-height {
+    height: 250px;
+  }
+  .about .row {
+    text-align: center;
+  }
 }
 
 @media (max-width: 568px) {
-  
-.offer-grids h4 {
-  text-align: center;
-}
-#banner-height{
-  height:250px;
-}
-.about .row { 
-  text-align:center;
-}
+  .offer-grids h4 {
+    text-align: center;
+  }
+  #banner-height {
+    height: 250px;
+  }
+  .about .row {
+    text-align: center;
+  }
   h3.b-w3ltxt {
     font-size: 2.3em;
   }
@@ -2865,13 +2866,12 @@ a.move-top span {
     font-size: 20px;
   }
 
- 
   #logo a {
     font-size: 16px;
-    }
-    .logoStyle {
-      width: 40px;
-      height: 35px;
+  }
+  .logoStyle {
+    width: 40px;
+    height: 35px;
   }
   h3.heading,
   h2.heading {
@@ -2968,39 +2968,37 @@ a.move-top span {
     margin: 5em 1em;
     padding: 3em 1em;
   }
-  
-.offer-grids h4 {
-  text-align: center;
-}
 
-#logo a {
-  letter-spacing: 0;
-  font-size: 15px;
-  
-}
+  .offer-grids h4 {
+    text-align: center;
+  }
 
-.logoStyle {
-  width :30px;
-  height:30px;
-}
+  #logo a {
+    letter-spacing: 0;
+    font-size: 15px;
+  }
 
+  .logoStyle {
+    width: 30px;
+    height: 30px;
+  }
 
-.login-icon a, .login-icon a:hover {
-  padding: 5px 5px;
-  font-size: 12px;
-  border-radius: 0px;
-}
-.toggle {
-padding: 6px 12px;
-font-size: 12px;
-}
+  .login-icon a,
+  .login-icon a:hover {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 0px;
+  }
+  .toggle {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 415px) {
-  
-#banner-height{
-  height:250px;
-}
+  #banner-height {
+    height: 250px;
+  }
   .blog-grids h4 {
     font-size: 20px;
   }
@@ -3020,8 +3018,8 @@ font-size: 12px;
   }
 
   .navbar-light .navbar-nav .nav-link,
-  .navbar-light .navbar-nav .show>.nav-link,
-  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .nav-link.active {
     font-size: 15px;
@@ -3101,28 +3099,27 @@ font-size: 12px;
   .offer-grids h4 {
     text-align: center;
   }
-  
+
   #logo a {
     letter-spacing: 0;
     font-size: 15px;
-    
   }
 
   .logoStyle {
-    width :30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
   }
 
-  
-  .login-icon a, .login-icon a:hover {
+  .login-icon a,
+  .login-icon a:hover {
     padding: 5px 5px;
     font-size: 12px;
     border-radius: 0px;
-}
-.toggle {
-  padding: 6px 12px;
-  font-size: 12px;
-}
+  }
+  .toggle {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 384px) {
@@ -3170,8 +3167,8 @@ font-size: 12px;
   }
 
   .navbar-light .navbar-nav .nav-link,
-  .navbar-light .navbar-nav .show>.nav-link,
-  .navbar-light .navbar-nav .active>.nav-link,
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .active > .nav-link,
   .navbar-light .navbar-nav .nav-link.show,
   .navbar-light .navbar-nav .nav-link.active {
     letter-spacing: 0.5px;
@@ -3197,61 +3194,60 @@ font-size: 12px;
   #logo a {
     letter-spacing: 0;
     font-size: 14px;
-    
   }
 
   .logoStyle {
-    width :30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
   }
 
-  
-  .login-icon a, .login-icon a:hover {
+  .login-icon a,
+  .login-icon a:hover {
     padding: 5px 5px;
     font-size: 12px;
     border-radius: 0px;
-}
-.toggle {
-  padding: 6px 12px;
-  font-size: 12px;
-}
-#banner-height{
-  height:250px;
-}
-.about .row { 
-  text-align:center;
-}
+  }
+  .toggle {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  #banner-height {
+    height: 250px;
+  }
+  .about .row {
+    text-align: center;
+  }
 
-.offer-grids h4 {
-  text-align: center;
-}
+  .offer-grids h4 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 375px) {
   #logo a {
     letter-spacing: 0;
     font-size: 12px;
-    
   }
-  .login-icon a, .login-icon a:hover {
+  .login-icon a,
+  .login-icon a:hover {
     padding: 5px 5px;
     font-size: 12px;
     border-radius: 0px;
-}
-.toggle {
-  padding: 6px 12px;
-  font-size: 12px;
-}
-#banner-height{
-  height:250px;
-}
-.about .row { 
-  text-align:center;
-}
+  }
+  .toggle {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  #banner-height {
+    height: 250px;
+  }
+  .about .row {
+    text-align: center;
+  }
 
-.offer-grids h4 {
-  text-align: center;
-}
+  .offer-grids h4 {
+    text-align: center;
+  }
   .contact-info p {
     font-size: 14px;
   }
@@ -3273,6 +3269,7 @@ font-size: 12px;
   }
 }
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+}
 
 /*--//responsive design --*/
