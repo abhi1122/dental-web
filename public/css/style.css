@@ -581,7 +581,9 @@ nav ul ul ul li {
 li > a:only-child:after {
   content: "";
 }
-
+.banner-margin {
+  margin-top: 100px;
+}
 /* Media Queries
 --------------------------------------------- */
 
@@ -2428,6 +2430,9 @@ a.move-top span {
 /*-- responsive design --*/
 
 @media (max-width: 1280px) {
+  .banner-margin {
+    margin-top: 100px;
+  }
   .innerpage-banner,
   .inner-page-layer {
     min-height: 200px;
@@ -2435,6 +2440,9 @@ a.move-top span {
 }
 
 @media (max-width: 1080px) {
+  .banner-margin {
+    margin-top: 100px;
+  }
   h3.b-w3ltxt {
     font-size: 3.2em;
     line-height: 60px;
@@ -2546,6 +2554,9 @@ a.move-top span {
 }
 
 @media (max-width: 991px) {
+  .banner-margin {
+    margin-top: 100px;
+  }
   .about .row {
     text-align: center;
   }
@@ -2623,6 +2634,9 @@ a.move-top span {
   }
 }
 @media (max-width: 1180px) {
+  .banner-margin {
+    margin-top: 100px;
+  }
   #logo a {
     font-size: 22px;
   }
@@ -2632,6 +2646,9 @@ a.move-top span {
   }
 }
 @media (max-width: 800px) {
+  .banner-margin {
+    margin-top: 85px;
+  }
   .about .row {
     text-align: center;
   }
@@ -2678,6 +2695,9 @@ a.move-top span {
 }
 
 @media (max-width: 736px) {
+  .banner-margin {
+    margin-top: 85px;
+  }
   #banner-height {
     height: 350px;
   }
@@ -2743,6 +2763,9 @@ a.move-top span {
 }
 
 @media (max-width: 667px) {
+  .banner-margin {
+    margin-top: 85px;
+  }
   h3.b-w3ltxt {
     font-size: 2.5em;
   }
@@ -2783,6 +2806,9 @@ a.move-top span {
 }
 
 @media (max-width: 640px) {
+  .banner-margin {
+    margin-top: 85px;
+  }
   h3.b-w3ltxt {
     line-height: 45px;
     font-size: 2.8em;
@@ -2801,6 +2827,9 @@ a.move-top span {
 }
 
 @media (max-width: 568px) {
+  .banner-margin {
+    margin-top: 80px;
+  }
   .offer-grids h4 {
     text-align: center;
   }
@@ -2889,6 +2918,9 @@ a.move-top span {
 }
 
 @media (max-width: 480px) {
+  .banner-margin {
+    margin-top: 80px;
+  }
   .banner-text-agile {
     padding: 22vw 0vw 4vw;
   }
@@ -2996,6 +3028,9 @@ a.move-top span {
 }
 
 @media (max-width: 415px) {
+  .banner-margin {
+    margin-top: 80px;
+  }
   #banner-height {
     height: 250px;
   }
@@ -3123,6 +3158,9 @@ a.move-top span {
 }
 
 @media (max-width: 384px) {
+  .banner-margin {
+    margin-top: 80px;
+  }
   .navbar-brand {
     font-size: 25px;
   }
@@ -3224,6 +3262,9 @@ a.move-top span {
 }
 
 @media (max-width: 375px) {
+  .banner-margin {
+    margin-top: 80px;
+  }
   #logo a {
     letter-spacing: 0;
     font-size: 12px;
