@@ -5,7 +5,7 @@
   "scripts": {
     "start": "pm2 start ./bin/www",
     "start2": "nodemon ./bin/www",
-    "start2": "pm2-runtime start ./bin/www"
+    "start3": "pm2-runtime start ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
