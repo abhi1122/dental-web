@@ -13,15 +13,28 @@
   margin-bottom: 20px;
 }
 
-.top-menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 1024px) {
+  .top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .services-ui{
   display: flex;
   align-items: center;
+}
+
+.main-banner{
+  margin-top: 60px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .main-banner{
+    margin-top: 20px;
+  }
 }
 
 /* .csslider>input:nth-of-type(10):checked~ul li:first-of-type {
