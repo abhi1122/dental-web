@@ -8,6 +8,22 @@
   display: none;
 }
 
+.result-banner{
+  margin: 30px 0;
+  margin-bottom: 20px;
+}
+
+.top-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-ui{
+  display: flex;
+  align-items: center;
+}
+
 /* .csslider>input:nth-of-type(10):checked~ul li:first-of-type {
   margin-left: -900%;
 }

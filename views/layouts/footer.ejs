@@ -4,6 +4,18 @@
             <h4><%= tagLine %></h4>
             <p class="mt-3"><%= callUs %> <b style="font-size: 18px;"><%= phone1 %> <%= phone2 %></b>
                 <%= orBook %></p>
+            <div class="result-banner">
+                <% 
+                        for (var i = 0; i < results.length; i++) {
+                    %>
+                    <div>
+                        <img height="250px" alt="<%= results[i]['text'] %>"
+                            src="<%= results[i]['image'] %>" data-src="<%= results[i]['image'] %>"
+                                />
+                    </div>
+
+                    <% } %>
+            </div>    
             <a href="<%= parctoUrl %>"><%= bookAnAppointment %></a>
         </div>
     </section>

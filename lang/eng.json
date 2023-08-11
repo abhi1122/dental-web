@@ -75,29 +75,50 @@
         }
     ],
     "banner": [{
-            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_500/v1631356658/shreeekdantamdentalclinic/cilnic_rpfzix.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_600/v1691729708/WhatsApp_Image_2023-08-10_at_7.23.31_PM_gxuakg.jpg",
             "text": "Shree Ekdantam Dental Clinic Jhalawar"
         },
         {
-            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,w_960/v1632903387/shreeekdantamdentalclinic/CollageMaker_20210816_135834551_qoxecm.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_600/v1691729708/WhatsApp_Image_2023-08-10_at_7.23.29_PM_2_bvx6b2.jpg",
             "text": "Dr Lalit Sharma"
         },
         {
-            "image": "https://res.cloudinary.com/dp536vvok/image/upload/v1632904406/shreeekdantamdentalclinic/WhatsApp_Image_2021-09-29_at_2.03.06_PM_mxv0y6.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_600/v1691729708/WhatsApp_Image_2023-08-10_at_7.23.31_PM_1_zhb6ql.jpg",
             "text": ""
         },
         {
-            "image": "https://res.cloudinary.com/dp536vvok/image/upload/v1632904730/shreeekdantamdentalclinic/WhatsApp_Image_2021-09-11_at_11.59.39_AM_1_oqq9lv.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_600/v1691729707/WhatsApp_Image_2023-08-10_at_7.23.26_PM_gr5qwb.jpg",
             "text": ""
         },
         {
-            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_fit,h_400,w_960/v1632903389/shreeekdantamdentalclinic/IMG_20210928_234846_aomjre.jpg",
+            "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_600/v1691729707/WhatsApp_Image_2023-08-10_at_7.23.27_PM_2_s6yqfq.jpg",
             "text": ""
         }
     ],
+    "results": [{
+        "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_400/v1691729706/WhatsApp_Image_2023-08-10_at_7.19.54_PM_x50wh5.jpg",
+        "text": "Shree Ekdantam Dental Clinic Jhalawar"
+    },
+    {
+        "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_400/v1691729706/WhatsApp_Image_2023-08-10_at_7.23.26_PM_1_c2zyp3.jpg",
+        "text": "Dr Lalit Sharma"
+    },
+    {
+        "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_400/v1691729709/WhatsApp_Image_2023-08-10_at_7.19.52_PM_tx3ksh.jpg",
+        "text": ""
+    },
+    {
+        "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_400/v1691729709/WhatsApp_Image_2023-08-10_at_7.19.52_PM_1_ttwgrk.jpg",
+        "text": ""
+    },
+    {
+        "image": "https://res.cloudinary.com/dp536vvok/image/upload/c_scale,h_400/v1691729708/WhatsApp_Image_2023-08-10_at_7.19.51_PM_1_nouevu.jpg",
+        "text": ""
+    }
+    ],
     "bookNow": "Book Now",
     "callUs": "Call Us",
-    "parctoUrl": "",
+    "parctoUrl": "/contact-us",
     "menu": [{
             "text": "Home",
             "url": "/",

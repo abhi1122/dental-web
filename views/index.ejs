@@ -5,23 +5,17 @@
                 <div>
                     <div class="row">
                         <div class="col-lg-12 p-0 banner-margin">
-                            <div id="example1" class="accordion-slider">
-                                <div class="as-panels">
-                                    <% 
+                            <div class="main-banner">
+                                <% 
                                         for (var i = 0; i < banner.length; i++) {
                                     %>
-                                    <div class="as-panel">
-                                        <img class="as-background" alt="<%= banner[i]['text'] %>"
-                                            src="/dist/css/images/blank.gif" data-src="<%= banner[i]['image'] %>"
-                                            data-retina="<%= banner[i]['image'] %>" id="banner-height" />
-                                        <p class="as-layer as-opened as-black as-padding" data-position="bottomLeft"
-                                            data-show-transition="up" data-hide-transition="down">
-                                            <%= banner[i]['text'] %>
-                                        </p>
+                                    <div>
+                                        <img height="400px" alt="<%= banner[i]['text'] %>"
+                                            src="<%= banner[i]['image'] %>" data-src="<%= banner[i]['image'] %>"
+                                             />
                                     </div>
 
                                     <% } %>
-                                </div>
                             </div>
 
 
@@ -70,7 +64,7 @@
                     j=j+1;    
                 } 
                 %>
-                <div class="row col-lg-6 mb-5 padder-none">
+                <div class="row col-lg-6 mb-5 padder-none services-ui">
                     <div class="col-sm-3 ser_icon">
                         <span class="icon bg<%= j %> mx-auto">
                             <span class="fa fa-user-md"></span>
