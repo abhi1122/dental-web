@@ -27,14 +27,7 @@
 }
 
 .main-banner{
-  margin-top: 60px;
-}
-
-
-@media screen and (min-width: 1024px) {
-  .main-banner{
-    margin-top: 20px;
-  }
+  margin-top: 20px;
 }
 
 /* .csslider>input:nth-of-type(10):checked~ul li:first-of-type {
